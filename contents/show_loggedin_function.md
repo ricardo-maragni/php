@@ -1,7 +1,7 @@
-/**
- * A função abaixo serve para mostrar o e-mail que está logado na página.
-*/
+# Show logged-in function
+A função abaixo serve para mostrar o e-mail que está logado na página
 
+```php
 function show_loggedin_function( $atts ) {
 
 	global $current_user, $user_login;
@@ -14,3 +14,4 @@ function show_loggedin_function( $atts ) {
 	
 }
 add_shortcode( 'show_loggedin_as', 'show_loggedin_function' );
+```
